@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HOSA — Humanitarian Organization for Sustainability and Advancement. Humanity, sustainability, and progress for communities.">
+  <meta name="theme-color" content="#0756a5">
+  <title>HOSA | Humanitarian Organization for Sustainability and Advancement</title>
+  <link rel="icon" type="image/png" href="assets/hosa-logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="HOSA home">
+        <img src="assets/hosa-logo.png" alt="HOSA official logo">
+        <span class="brand-text">
+          <strong>HOSA</strong>
+          <small>Humanitarian Organization for Sustainability and Advancement</small>
+        </span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#focus" data-i18n="navFocus">Our focus</a>
+        <a href="#values" data-i18n="navValues">Our values</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+        <label class="language-picker">
+          <span class="visually-hidden">Language</span>
+          <select id="language" aria-label="Choose language">
+            <option value="en">English</option>
+            <option value="ps">پښتو</option>
+            <option value="fa">دری</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow" data-i18n="eyebrow">A better future, together</span>
+          <h1 data-i18n="heroTitle">Humanity today. <em>Sustainability</em> for tomorrow.</h1>
+          <p class="lead" data-i18n="heroText">HOSA is the Humanitarian Organization for Sustainability and Advancement. We work toward a more inclusive, resilient and sustainable future by supporting people, strengthening opportunities and encouraging lasting progress.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about" data-i18n="discover">Discover HOSA <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#contact" data-i18n="contactUs">Contact us</a>
+          </div>
+          <p class="hero-note"><span aria-hidden="true">✦</span> <span data-i18n="heroNote">People-centered · Community-led · Future-focused</span></p>
+        </div>
+        <div class="hero-art">
+          <img src="assets/hosa-logo.png" alt="Official HOSA emblem representing people, the planet, sustainability and progress">
+          <div class="art-caption"><span aria-hidden="true">✦</span> <span data-i18n="stronger">Stronger together</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container two-column">
+        <div>
+          <span class="section-kicker" data-i18n="who">WHO WE ARE</span>
+          <h2 data-i18n="aboutTitle">Building pathways to a more hopeful future.</h2>
+        </div>
+        <div class="section-body">
+          <p data-i18n="aboutText">HOSA stands for Humanitarian Organization for Sustainability and Advancement. We envision communities where people can access opportunities, build resilience and take part in sustainable development.</p>
+          <p class="notice" data-i18n="notice">Before publishing, add verified registration details, leadership, location and approved organizational information.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="focus">
+      <div class="container">
+        <span class="section-kicker" data-i18n="focusKicker">OUR FOCUS</span>
+        <h2 data-i18n="focusTitle">Turning shared priorities into lasting progress.</h2>
+        <p class="section-intro" data-i18n="focusIntro">Our areas of focus reflect a commitment to people, opportunity and a sustainable future.</p>
+        <div class="cards">
+          <article class="info-card"><span class="card-number">01</span><div class="card-icon" aria-hidden="true">♡</div><h3 data-i18n="card1Title">Humanitarian support</h3><p data-i18n="card1Text">Promoting dignity, inclusion and support for people and communities.</p></article>
+          <article class="info-card"><span class="card-number">02</span><div class="card-icon" aria-hidden="true">♧</div><h3 data-i18n="card2Title">Sustainability</h3><p data-i18n="card2Text">Encouraging responsible approaches that protect resources for future generations.</p></article>
+          <article class="info-card"><span class="card-number">03</span><div class="card-icon" aria-hidden="true">↗</div><h3 data-i18n="card3Title">Advancement</h3><p data-i18n="card3Text">Supporting learning, opportunity and community-led progress.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="values">
+      <div class="container values-layout">
+        <div><span class="section-kicker" data-i18n="valuesKicker">OUR VALUES</span><h2 data-i18n="valuesTitle">Progress rooted in humanity.</h2></div>
+        <ul class="values-list">
+          <li><span>01</span><div><strong data-i18n="value1Title">Human dignity</strong><p data-i18n="value1Text">Respecting people and treating every person with dignity.</p></div></li>
+          <li><span>02</span><div><strong data-i18n="value2Title">Sustainability</strong><p data-i18n="value2Text">Thinking long-term about communities, resources and the planet.</p></div></li>
+          <li><span>03</span><div><strong data-i18n="value3Title">Cooperation</strong><p data-i18n="value3Text">Working together with communities and partners toward shared goals.</p></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div><span class="section-kicker" data-i18n="contactKicker">GET IN TOUCH</span><h2 data-i18n="contactTitle">Let’s build a better future together.</h2><p data-i18n="contactText">For partnerships and inquiries, contact the HOSA team.</p></div>
+        <p class="contact-placeholder" data-i18n="contactPlaceholder">Add your official email address and contact details here before publishing.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><img src="assets/hosa-logo.png" alt=""><span><strong>HOSA</strong><small>Humanitarian Organization for Sustainability and Advancement</small></span></div>
+      <p>© <span id="year"></span> HOSA. <span data-i18n="rights">All rights reserved.</span></p>
+    </div>
+  </footer>
+</body>
+</html>
