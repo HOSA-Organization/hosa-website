@@ -1,6 +1,6 @@
 # HOSA Website
 
-Official website starter for **HOSA — Humanitarian Organization for Sustainability and Advancement**.
+Official website starter for **NOOR — Nonprofit Organization for Opportunities and Relief**.
 
 ## Files
 - `index.html` — website structure and content
@@ -9,7 +9,7 @@ Official website starter for **HOSA — Humanitarian Organization for Sustainabi
 - `assets/hosa-logo.png` — the logo supplied for this website
 
 ## Publish with GitHub Pages
-1. Open the `HOSA-Organization/hosa-website` repository.
+1. Open the NOOR-ganization/Noor-website` repository.
 2. Upload the files and the `assets` folder to the repository's **root** (not inside another nested folder).
 3. If GitHub asks whether to replace existing files, review the names before confirming.
 4. Open **Settings → Pages**.
