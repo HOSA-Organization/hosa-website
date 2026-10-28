@@ -1,2 +1,2 @@
-# hosa-website
-Official website of HOSA
+# Noor-website
+Official website of NOOR
