@@ -1,4 +1,4 @@
-# HOSA Website
+# NOOR Website
 
 Official website starter for **NOOR — Nonprofit Organization for Opportunities and Relief**.
 
@@ -6,7 +6,7 @@ Official website starter for **NOOR — Nonprofit Organization for Opportunities
 - `index.html` — website structure and content
 - `styles.css` — responsive design and styling
 - `script.js` — navigation and English/Pashto/Dari language switching
-- `assets/hosa-logo.png` — the logo supplied for this website
+- `assets/noor-logo.` — the logo supplied for this website
 
 ## Publish with GitHub Pages
 1. Open the NOOR-ganization/Noor-website` repository.
